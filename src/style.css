@@ -63,7 +63,7 @@ p {
 
 .footer {
   text-align: center;
-  margin: 40px;
+  margin: 40px auto 120px auto;
 }
 
 a {
