@@ -36,6 +36,7 @@ hr.solid {
 .namePrice {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
@@ -92,7 +93,22 @@ button {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 28px;
+  }
   h2 {
-    font-size: 20px;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  body {
+    margin: auto;
+    width: 375px;
+  }
+  .logo {
+    width: 80px;
   }
 }
